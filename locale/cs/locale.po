@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-11T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-11T00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.githubPages.displayName"
+msgstr "Plugin GitHub stránky"
+
+msgid "plugins.generic.githubPages.description"
+msgstr "Zveřejňuje soubory Markdown (.md) z GitHubu jako stránky – pro jednotlivý časopis nebo pro celý web (z administrace). Obsah se stáhne, převede na HTML, uloží lokálně a zobrazuje na zvolené cestě."
+
+msgid "plugins.generic.githubPages.githubPages"
+msgstr "GitHub stránky"
+
+msgid "plugins.generic.githubPages.pageTitle"
+msgstr "Název"
+
+msgid "plugins.generic.githubPages.path"
+msgstr "Cesta"
+
+msgid "plugins.generic.githubPages.sourceUrl"
+msgstr "URL souboru Markdown na GitHubu"
+
+msgid "plugins.generic.githubPages.sourceUrl.help"
+msgstr ""
+"Vložte odkaz na veřejný soubor .md na GitHubu. Funguje běžný odkaz "
+"(https://github.com/uzivatel/repo/blob/main/docs/stranka.md) i raw odkaz "
+"(https://raw.githubusercontent.com/uzivatel/repo/main/docs/stranka.md). "
+"Relativní obrázky a odkazy uvnitř souboru se automaticky přepíšou na "
+"absolutní adresy na GitHubu."
+
+msgid "plugins.generic.githubPages.updated"
+msgstr "Naposledy staženo"
+
+msgid "plugins.generic.githubPages.addGithubPage"
+msgstr "Přidat stránku"
+
+msgid "plugins.generic.githubPages.editAddContent"
+msgstr "Spravovat stránky"
+
+msgid "plugins.generic.githubPages.noneCreated"
+msgstr "Zatím nebyly vytvořeny žádné stránky."
+
+msgid "plugins.generic.githubPages.refresh"
+msgstr "Načíst znovu z GitHubu"
+
+msgid "plugins.generic.githubPages.refreshed"
+msgstr "Obsah byl znovu stažen z GitHubu."
+
+msgid "plugins.generic.githubPages.pageSaved"
+msgstr "Stránka byla uložena a obsah stažen z GitHubu."
+
+msgid "plugins.generic.githubPages.nameRequired"
+msgstr "Název je povinný."
+
+msgid "plugins.generic.githubPages.pathRegEx"
+msgstr ""
+"Pole cesta smí obsahovat pouze alfanumerické znaky a znaky '.', '/', '-' a "
+"'_'."
+
+msgid "plugins.generic.githubPages.duplicatePath"
+msgstr "Tato cesta už existuje pro jinou stránku."
+
+msgid "plugins.generic.githubPages.viewInstructions"
+msgstr ""
+"<p>Tato stránka bude dostupná na adrese: <blockquote>{$pagesPath}</blockquote>"
+"kde %PATH% je cesta zadaná výše. <strong>Poznámka:</strong> Dvě stránky "
+"nemohou mít stejnou cestu. Použití cest zabudovaných v systému může vést ke "
+"ztrátě přístupu k důležitým funkcím.</p>"
+
+msgid "plugins.generic.githubPages.settings.description"
+msgstr "Volitelné nastavení pluginu GitHub stránky."
+
+msgid "plugins.generic.githubPages.settings.token"
+msgstr "Přístupový token GitHubu (volitelné)"
+
+msgid "plugins.generic.githubPages.settings.tokenHelp"
+msgstr ""
+"Pro veřejné repozitáře není token potřeba, ale jeho zadáním se zvýší limit "
+"API (z 60 na 5000 požadavků za hodinu). Stačí token jen pro čtení bez "
+"dalších oprávnění."
+
+msgid "plugins.generic.githubPages.error.badUrl"
+msgstr "Toto nevypadá jako platný odkaz na soubor Markdown na GitHubu."
+
+msgid "plugins.generic.githubPages.error.fetchFailed"
+msgstr "Soubor se nepodařilo stáhnout z GitHubu."
+
+msgid "plugins.generic.githubPages.error.renderFailed"
+msgstr "Markdown se nepodařilo převést přes GitHub."
+
+msgid "plugins.generic.githubPages.frontend.source"
+msgstr "Zdroj:"
+
+msgid "plugins.generic.githubPages.frontend.updated"
+msgstr "aktualizováno"

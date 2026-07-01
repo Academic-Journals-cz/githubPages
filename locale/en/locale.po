@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-11T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-11T00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.githubPages.displayName"
+msgstr "GitHub Pages Plugin"
+
+msgid "plugins.generic.githubPages.description"
+msgstr "Publish Markdown (.md) files hosted on GitHub as pages, for a single journal or for the whole site (from the administration). Content is downloaded, rendered to HTML, cached locally and served at a path you choose."
+
+msgid "plugins.generic.githubPages.githubPages"
+msgstr "GitHub Pages"
+
+msgid "plugins.generic.githubPages.pageTitle"
+msgstr "Title"
+
+msgid "plugins.generic.githubPages.path"
+msgstr "Path"
+
+msgid "plugins.generic.githubPages.sourceUrl"
+msgstr "GitHub Markdown URL"
+
+msgid "plugins.generic.githubPages.sourceUrl.help"
+msgstr ""
+"Paste a link to a public .md file on GitHub. Both the normal blob link "
+"(https://github.com/owner/repo/blob/main/docs/page.md) and the raw link "
+"(https://raw.githubusercontent.com/owner/repo/main/docs/page.md) are "
+"accepted. Relative images and links inside the file are rewritten to "
+"absolute GitHub URLs automatically."
+
+msgid "plugins.generic.githubPages.updated"
+msgstr "Last fetched"
+
+msgid "plugins.generic.githubPages.addGithubPage"
+msgstr "Add Page"
+
+msgid "plugins.generic.githubPages.editAddContent"
+msgstr "Manage Pages"
+
+msgid "plugins.generic.githubPages.noneCreated"
+msgstr "No pages have been created yet."
+
+msgid "plugins.generic.githubPages.refresh"
+msgstr "Refresh from GitHub"
+
+msgid "plugins.generic.githubPages.refreshed"
+msgstr "Content was re-fetched from GitHub."
+
+msgid "plugins.generic.githubPages.pageSaved"
+msgstr "Page saved and content fetched from GitHub."
+
+msgid "plugins.generic.githubPages.nameRequired"
+msgstr "A title is required."
+
+msgid "plugins.generic.githubPages.pathRegEx"
+msgstr ""
+"The path field must contain only alphanumeric characters plus '.', '/', '-', "
+"and '_'."
+
+msgid "plugins.generic.githubPages.duplicatePath"
+msgstr "This path already exists for another page."
+
+msgid "plugins.generic.githubPages.viewInstructions"
+msgstr ""
+"<p>This page will be accessible at: <blockquote>{$pagesPath}</blockquote>"
+"where %PATH% is the path entered above. <strong>Note:</strong> No two pages "
+"can have the same path. Using paths that are built into the system may cause "
+"you to lose access to important functions.</p>"
+
+msgid "plugins.generic.githubPages.settings.description"
+msgstr "Optional configuration for the GitHub Pages plugin."
+
+msgid "plugins.generic.githubPages.settings.token"
+msgstr "GitHub access token (optional)"
+
+msgid "plugins.generic.githubPages.settings.tokenHelp"
+msgstr ""
+"A GitHub personal access token is not required for public repositories, but "
+"providing one raises the API rate limit (from 60 to 5000 requests per hour). "
+"A read-only fine-grained token with no extra scopes is sufficient."
+
+msgid "plugins.generic.githubPages.error.badUrl"
+msgstr "This does not look like a valid GitHub link to a Markdown file."
+
+msgid "plugins.generic.githubPages.error.fetchFailed"
+msgstr "The file could not be downloaded from GitHub."
+
+msgid "plugins.generic.githubPages.error.renderFailed"
+msgstr "The Markdown could not be rendered by GitHub."
+
+msgid "plugins.generic.githubPages.frontend.source"
+msgstr "Source:"
+
+msgid "plugins.generic.githubPages.frontend.updated"
+msgstr "updated"
