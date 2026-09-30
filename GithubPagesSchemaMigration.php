@@ -58,7 +58,7 @@ class GithubPagesSchemaMigration extends Migration
             $table->string('locale', 14)->default('');
             $table->string('setting_name', 255);
             $table->longText('setting_value')->nullable();
-            $table->string('setting_typa', 50);
+            $table->string('setting_type', 50);
             $table->unique(['github_page_id', 'locale', 'setting_name'], 'github_page_settings_unique');
         });
     }
